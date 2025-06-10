@@ -16,7 +16,7 @@ function ChatMessage({ message }: { message: Message }) {
     >
       {message.role === "ai" ? (
         <Avatar className="w-8 h-8">
-          <AvatarImage src="/ai-avatar.png" />
+          <AvatarImage src="/ai-avatar.svg" />
           <AvatarFallback>AI</AvatarFallback>
         </Avatar>
       ) : (

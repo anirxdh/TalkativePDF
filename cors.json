@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://talkative-pdf.vercel.app", "http://localhost:3000", "https://localhost:3000"],
+    "method": ["GET", "HEAD"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type", "Access-Control-Allow-Origin", "x-goog-resumable"]
+  }
+] 
