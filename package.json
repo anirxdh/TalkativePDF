@@ -1,24 +1,52 @@
 {
-  "name": "chat-with-pdf",
+  "name": "talkativepdf",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "NEXT_DISABLE_TURBOPACK=1 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.21.0",
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/openai": "^0.5.12",
+    "@langchain/pinecone": "^0.2.0",
+    "@pinecone-database/pinecone": "^6.1.0",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-slot": "^1.2.2",
+    "@radix-ui/react-toast": "^1.2.14",
+    "@react-three/drei": "^10.1.2",
+    "@react-three/fiber": "^9.1.2",
+    "@stripe/stripe-js": "^7.3.1",
+    "byte-size": "^9.0.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "firebase": "^11.8.1",
+    "firebase-admin": "^13.4.0",
+    "langchain": "^0.3.27",
+    "lucide-react": "^0.509.0",
+    "next": "15.3.2",
+    "pdf-parse": "^1.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-dropzone": "^14.3.8",
+    "react-firebase-hooks": "^5.1.1",
+    "react-pdf": "^9.2.1",
+    "stripe": "^18.2.1",
+    "tailwind-merge": "^3.3.0",
+    "three": "^0.177.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4",
+    "tw-animate-css": "^1.2.9",
+    "typescript": "^5"
   }
 }
