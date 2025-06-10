@@ -37,3 +37,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 **For deployment, use your preferred platform (e.g., Netlify, AWS, etc.).**
 
 ---
+
+## How It Works
+
+1. **User signs up/logs in** (Clerk).
+2. **User uploads a PDF** (drag-and-drop or file picker).
+3. **PDF is stored in Firebase Storage**; metadata and chat history in Firestore.
+4. **User can chat with the PDF**; questions are sent to the backend, which uses OpenAI (via LangChain) and Pinecone for context-aware answers.
+5. **PRO features** (like more uploads, unlimited chat) are unlocked via Stripe subscription.
+6. **3D objects** float in the background for a modern, playful feel.
