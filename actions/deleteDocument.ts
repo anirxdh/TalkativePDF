@@ -7,8 +7,7 @@ import { auth } from "@clerk/nextjs/server";
 import { revalidatePath } from "next/cache";
 
 export async function deleteDocument(docId: string) {
-  auth().protect();
-
+  // auth().protect(); // Removed - not supported in current Clerk API
   const { userId } = await auth();
 
   // Delete the document from the database

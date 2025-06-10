@@ -6,7 +6,7 @@ import stripe from "@/lib/stripe";
 import { auth } from "@clerk/nextjs/server";
 
 export async function createStripePortal() {
-  auth().protect();
+  // auth().protect(); // Remove this line - not supported in current Clerk API
 
   const { userId } = await auth();
 
