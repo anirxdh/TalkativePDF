@@ -1,5 +1,7 @@
 # TalkativePDF
 
+> **Write-up:** [TalkativePDF: Wiring Chat-with-PDF RAG on Next.js and Pinecone](https://anirudhvasudevan.com/blog/talkativepdf-rag-chat/), the architecture, decisions and lessons. Built by [Anirudh Vasudevan](https://anirudhvasudevan.com/).
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
